@@ -1,4 +1,4 @@
-# MyFlixAngularClient2
+# myFlix-Angular-O
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
 
