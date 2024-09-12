@@ -1,29 +1,56 @@
-# MyFlixAngularClient2
+# Personal Portfolio Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+This is a personal portfolio website built with HTML, CSS, and JavaScript to showcase projects and provide an overview of professional background, skills, and contact information. The website is fully responsive and includes smooth scrolling and animated sections.
 
-## Development server
+## Table of Contents
+- [Features](#features)
+- [Sections](#sections)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+- [License](#license)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Responsive Design**: The website is fully responsive and adapts to various screen sizes.
+- **Smooth Scrolling**: Navigation links scroll smoothly to the corresponding sections of the page.
+- **Animations**: Page elements are animated on scroll using the AOS (Animate On Scroll) library.
+- **Project Showcase**: Projects are listed with descriptions and links to live demos and GitHub repositories.
+- **Contact Information**: Visitors can view the contact information and reach out via email or phone.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Sections
 
-## Build
+1. **Header**: 
+   - Includes navigation links to `Home`, `About`, `Work`, and `Contact`.
+   - Smooth scrolling is enabled for easy navigation between sections.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Home**:
+   - A brief introduction of the developer (Joud Hasan) with a profile image.
+   - A text block with a short biography.
 
-## Running unit tests
+3. **About**:
+   - A detailed professional background, including achievements, awards, and work experience in journalism and project management.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. **Work**:
+   - Showcase of different projects (`Meet App`, `Chat App`, `MyFlix`, `MyMovie`, `Pokedex`).
+   - Links to live versions and GitHub repositories for each project.
 
-## Running end-to-end tests
+5. **Contact**:
+   - Email and phone contact information.
+   - Social media links (GitHub, Instagram, LinkedIn) in the footer.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Technologies Used
 
-## Further help
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and responsive layout.
+- **JavaScript**: For smooth scrolling and animations.
+- **AOS Library**: For scroll animations.
+- **GitHub Pages**: For hosting the portfolio.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Installation
 
-# myFlix-Angular-client2
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/JoudHasan/portfolio-website.git

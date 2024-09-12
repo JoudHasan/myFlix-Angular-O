@@ -8,8 +8,8 @@
   <!-- Title of the application, displayed in the browser tab -->
   <title>MyFlixAngularClient2</title>
 
-  <!-- Base URL for the application to resolve all relative URLs -->
-  <base href="/">
+  <!-- Base URL for the application to resolve all relative URLs (adjusted for GitHub Pages deployment) -->
+  <base href="/myFlix-Angular-O/">
 
   <!-- Viewport settings for responsive design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,6 +27,13 @@
 <body class="mat-typography">
   <!-- The root Angular component where the app will be loaded -->
   <app-root></app-root>
+
+  <!-- A script to handle redirection for GitHub Pages' 404 error (to support Angular SPA routing) -->
+  <script>
+    if (window.location.pathname !== '/myFlix-Angular-O/' && !window.location.pathname.includes('/myFlix-Angular-O/index.html')) {
+      window.location.href = '/myFlix-Angular-O/index.html';
+    }
+  </script>
 </body>
 
 </html>
